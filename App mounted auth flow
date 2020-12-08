@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T19:49:23.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vBUDGMbobpxUuSzb-Zfr" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T19:50:20.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="OdmpxTGrF5ktOKJdUNWL" version="13.10.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EBLLF5p7tQvqVAV2_3ei-9" value="Verify HMAC, get and validate Shopify token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="90" width="40" height="20" as="geometry" />
+          <mxGeometry x="520" y="90" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EBLLF5p7tQvqVAV2_3ei-13" value="" style="endArrow=classic;html=1;entryX=0.503;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="EBLLF5p7tQvqVAV2_3ei-1">
           <mxGeometry relative="1" as="geometry">
@@ -151,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EBLLF5p7tQvqVAV2_3ei-48" value="if 401 or can&#39;t connect shopify store, redirect to logn&lt;br&gt;if no TSL channel, redirect to onboardin&lt;br&gt;if 200, save user, tsl channel, shopify store in redux and redirect to products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="460" width="200" height="20" as="geometry" />
+          <mxGeometry x="20" y="490" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
