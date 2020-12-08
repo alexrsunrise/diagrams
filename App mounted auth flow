@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T19:50:20.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="OdmpxTGrF5ktOKJdUNWL" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T22:13:31.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0qshfwu5eygAYXBNpmph" version="13.10.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,8 +150,11 @@
             <mxPoint x="425" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EBLLF5p7tQvqVAV2_3ei-48" value="if 401 or can&#39;t connect shopify store, redirect to logn&lt;br&gt;if no TSL channel, redirect to onboardin&lt;br&gt;if 200, save user, tsl channel, shopify store in redux and redirect to products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EBLLF5p7tQvqVAV2_3ei-48" value="if 401 or can&#39;t connect shopify store, redirect to logn&lt;br&gt;if no TSL channel, redirect to onboarding&lt;br&gt;if 200, save user, tsl channel, shopify store in redux and redirect to products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="490" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EBLLF5p7tQvqVAV2_3ei-50" value="Encrypt TSL token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
