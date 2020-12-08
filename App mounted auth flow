@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T22:13:31.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0qshfwu5eygAYXBNpmph" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T23:51:31.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kXUkqGOaz3fWzTDeEz43" version="13.10.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
             <mxPoint x="330" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EBLLF5p7tQvqVAV2_3ei-20" value="get /api/store-taken" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EBLLF5p7tQvqVAV2_3ei-19">
+        <mxCell id="EBLLF5p7tQvqVAV2_3ei-20" value="get /api/shopify-store-has-owner" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EBLLF5p7tQvqVAV2_3ei-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
@@ -154,7 +154,7 @@
           <mxGeometry x="20" y="490" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EBLLF5p7tQvqVAV2_3ei-50" value="Encrypt TSL token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="160" width="40" height="20" as="geometry" />
+          <mxGeometry x="520" y="480" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
