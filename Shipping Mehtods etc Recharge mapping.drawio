@@ -1,1 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T22:53:48.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.2.9" etag="FFNOp68gtisCpM7kkgCG" type="github"><diagram id="HVEOEXYMoJjL7o-_d0C6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-01T23:08:56.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="riS9e6xblHk5VM04z3Nc" version="14.2.9" type="github">
+  <diagram id="HVEOEXYMoJjL7o-_d0C6" name="Page-1">
+    <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-1" value="Shipping Method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-2" value="Shipping Method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-3" target="Y2AGUVkPxyMV3y3UZMox-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-4" target="Y2AGUVkPxyMV3y3UZMox-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-5" value="Shipping Method Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-7" value="ReCharge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-8" value="NetSuite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-9" value="API Defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-10" value="Dropdown select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-11" value="API or User Defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-12" value="Dropdown select or write in" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-15" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-1" target="Y2AGUVkPxyMV3y3UZMox-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="99.5" as="sourcePoint" />
+            <mxPoint x="440" y="99.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-16" value="Payment Method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-17" value="Payment Method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-19" target="Y2AGUVkPxyMV3y3UZMox-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-21" target="Y2AGUVkPxyMV3y3UZMox-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-22" value="Payment Method Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-23" value="ReCharge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-24" value="NetSuite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-25" value="API Defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-26" value="Dropdown select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-27" value="API or User Defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-28" value="Dropdown select or write in" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-29" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-16" target="Y2AGUVkPxyMV3y3UZMox-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="259.5" as="sourcePoint" />
+            <mxPoint x="440" y="259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-31" value="Location" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-33" target="Y2AGUVkPxyMV3y3UZMox-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-36" value="Location Mapping (depends on specific use cases)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="610" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-38" value="NetSuite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-39" value="API Defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-40" value="Dropdown select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-44" value="If Recharge supports locations, this part looks the same as Shipping/Payment method mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-45" value="Order Form Id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-47" target="Y2AGUVkPxyMV3y3UZMox-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-48" value="Custom Form (depends on specific use cases)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="610" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-49" value="NetSuite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-50" value="User Defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="580" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-51" value="Write In" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="460" y="620" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-52" value="There may be instances when a user will require the middleware to use specific order form when creating an order (required fields, field mapping inside NS, etc)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="350" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
