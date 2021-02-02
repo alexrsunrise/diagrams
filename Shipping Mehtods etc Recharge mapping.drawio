@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T23:08:56.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="riS9e6xblHk5VM04z3Nc" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T15:08:19.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ZjBaiKCP1womBKw4ilja" version="14.2.9" type="github">
   <diagram id="HVEOEXYMoJjL7o-_d0C6" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -141,6 +141,51 @@
         </mxCell>
         <mxCell id="Y2AGUVkPxyMV3y3UZMox-52" value="There may be instances when a user will require the middleware to use specific order form when creating an order (required fields, field mapping inside NS, etc)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="80" y="590" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-53" value="Custom field" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-54" value="Order/Line Item custom filed&amp;nbsp; script id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-56" target="Y2AGUVkPxyMV3y3UZMox-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-58" target="Y2AGUVkPxyMV3y3UZMox-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-59" value="Custom Fields Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="190" y="660" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-60" value="ReCharge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-61" value="NetSuite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="690" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-62" value="User defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="730" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-63" value="User defined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-64" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y2AGUVkPxyMV3y3UZMox-53" target="Y2AGUVkPxyMV3y3UZMox-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="739.5" as="sourcePoint" />
+            <mxPoint x="440" y="739.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-65" value="Write In" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="455" y="770" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2AGUVkPxyMV3y3UZMox-66" value="Write In" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="225" y="770" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
