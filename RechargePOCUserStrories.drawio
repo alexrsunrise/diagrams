@@ -1,1 +1,271 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T19:01:36.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.2.9" etag="37z6G3vM0LNje9g3YWy-" type="github"><diagram id="huA5rPM_qWwrJDcFp1Oo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-05T20:04:56.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="X4xzR0EkM-vzXWHhPBps" version="14.2.9" type="github">
+  <diagram id="huA5rPM_qWwrJDcFp1Oo" name="Page-1">
+    <mxGraphModel dx="1248" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-1" value="POC User Stories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-2" value="When an order webhook comes in&lt;br&gt;DO:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-4" value="- log the request" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-5" value="- verify the webhook (HMAC, shopify domain)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-6" value="if verification fails, log error and bail out&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-7" value="- record order in the database (update or create)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-8" value="- acknowledge wehook recepit with 200" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-9" value="- trigger NetSuite sync job" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-10" target="EvWvuBL_8gQxIJ9CIpqY-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-10" target="EvWvuBL_8gQxIJ9CIpqY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-10" target="EvWvuBL_8gQxIJ9CIpqY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-10" target="EvWvuBL_8gQxIJ9CIpqY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-10" value="Webhook processor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;order webhook&lt;/font&gt;" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="110" as="sourcePoint" />
+            <mxPoint x="500" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-12" value="Logger" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-14" value="Webhook validator" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-16" value="Order" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-18" value="Sync Job" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-20" value="When sync job is triggered&lt;br&gt;DO:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-21" value="- create NetSuite sales order from the order in database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-23" value="- create NetSuite customer if customer mapping fails" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-24" value="- map fields including customer, product, etc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-25" value="- if mapping fails, fail order, record issue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-27" value="- send create sales order request to NetSuite" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-28" value="- log create sales order request" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-30" value="When response from NetSuite API is received&lt;br&gt;DO:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-31" value="- log response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-32" value="- record response on the order (status, error if any)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-33" value="- process response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-42" target="EvWvuBL_8gQxIJ9CIpqY-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-42" target="EvWvuBL_8gQxIJ9CIpqY-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-42" value="Sync Job" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-43" value="&lt;font style=&quot;font-size: 12px&quot;&gt;sync triggered&lt;/font&gt;" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="480" y="389.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-44" target="EvWvuBL_8gQxIJ9CIpqY-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-44" value="NS Connector" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-45" value="Customer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.027;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-46" target="EvWvuBL_8gQxIJ9CIpqY-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-46" value="Sales Order Factory" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-49" target="EvWvuBL_8gQxIJ9CIpqY-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-49" value="Mapper" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="650" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-53" value="Logger" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-58" target="EvWvuBL_8gQxIJ9CIpqY-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-58" target="EvWvuBL_8gQxIJ9CIpqY-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-58" value="NS Connector" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="515" y="525" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-59" value="&lt;font style=&quot;font-size: 12px&quot;&gt;NS response&lt;/font&gt;" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EvWvuBL_8gQxIJ9CIpqY-58">
+          <mxGeometry x="-0.4286" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="565" as="sourcePoint" />
+            <mxPoint x="495" y="565" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.027;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-64" target="EvWvuBL_8gQxIJ9CIpqY-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-64" value="Response Processor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="585" y="455" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-66" value="Order" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="715" y="470" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-67" value="Logger" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="655" y="535" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-73" value="When customer not found&lt;br&gt;DO:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-74" value="- create NS customer and map fields" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="719" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-75" value="- send create customer request to NS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-76" value="- log create customer request&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-77" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;Customer Extension&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-78" value="- log create customer response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="41" y="780" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-79" value="- process create customer response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="305" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-80" value="- if response is invalid fail sales order creation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="820" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-81" value="- create customer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="305" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-82" value="- return customer id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="41" y="860" width="305" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-85" target="EvWvuBL_8gQxIJ9CIpqY-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-85" target="EvWvuBL_8gQxIJ9CIpqY-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="622.5" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.058;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-85" target="EvWvuBL_8gQxIJ9CIpqY-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592.5" y="818" />
+              <mxPoint x="592.5" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-85" value="Customer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-86" value="&lt;font style=&quot;font-size: 12px&quot;&gt;customer not found&lt;/font&gt;" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EvWvuBL_8gQxIJ9CIpqY-85">
+          <mxGeometry x="-0.4286" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432.5" y="790" as="sourcePoint" />
+            <mxPoint x="482.5" y="790" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.027;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-88" target="EvWvuBL_8gQxIJ9CIpqY-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-88" value="Customer Factory" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-89" value="Mapper" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="670" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-90" value="Logger" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="749" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-91" target="EvWvuBL_8gQxIJ9CIpqY-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="EvWvuBL_8gQxIJ9CIpqY-91" target="EvWvuBL_8gQxIJ9CIpqY-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-91" value="NS Connector" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="820" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-95" value="Response&lt;br&gt;Processor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="830" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-104" value="" style="endArrow=none;html=1;fontSize=12;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="240" as="sourcePoint" />
+            <mxPoint x="840" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-106" value="" style="endArrow=none;html=1;fontSize=12;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="440" as="sourcePoint" />
+            <mxPoint x="840" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvWvuBL_8gQxIJ9CIpqY-107" value="" style="endArrow=none;html=1;fontSize=12;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="630" as="sourcePoint" />
+            <mxPoint x="835" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
