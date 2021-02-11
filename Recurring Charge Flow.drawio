@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T19:19:24.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="m9ZrRwwHDz7260r9Oh6L" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T19:39:55.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="6eAWE0M5ExAREANjf0yn" version="14.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,8 +100,8 @@
         <mxCell id="ayR7XXcj4JQ6BO8CJsRj-18" value="1) Always redirect to products even if coming from settings&lt;br&gt;2) If no plan, use free plan&lt;br&gt;3) Ping back with charge id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="510" width="345" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ayR7XXcj4JQ6BO8CJsRj-19" value="1) Empty assume free&lt;br&gt;2) Always choose active or billing_failure or suspended&lt;br&gt;3) If no active or billing_failure or suspended choose pending&lt;br&gt;4) If no pending, choose declined" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="600" width="345" height="80" as="geometry" />
+        <mxCell id="ayR7XXcj4JQ6BO8CJsRj-19" value="1) Empty assume free&lt;br&gt;2) Always choose active or billing_failure or suspended (if billing_failure or suspended - redirect to shop ineligible page)&lt;br&gt;3) If no active or billing_failure or suspended treat as no plan&lt;br&gt;4) If no pending, treat as no plan" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="660" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
