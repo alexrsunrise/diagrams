@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T20:15:49.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="3B4OUh2WQO-SnUfwaHS6" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T20:18:10.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="yGgL91nXM9nW5xOJGJek" version="14.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="TalkShopLive App Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="90" width="140" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="create subscription plan (post)" style="verticalAlign=bottom;endArrow=block;entryX=0.483;entryY=0.227;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.227;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="create subscription plan" style="verticalAlign=bottom;endArrow=block;entryX=0.483;entryY=0.227;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.227;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="135" y="160.0000000000001" as="sourcePoint" />
             <mxPoint x="305" y="160.0000000000001" as="targetPoint" />
@@ -31,14 +31,14 @@
         <mxCell id="ayR7XXcj4JQ6BO8CJsRj-3" value="Shopify API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="90" width="120" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ayR7XXcj4JQ6BO8CJsRj-4" value="update Shopify subscription " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="ayR7XXcj4JQ6BO8CJsRj-2">
+        <mxCell id="ayR7XXcj4JQ6BO8CJsRj-4" value="create Shopify subscription " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="ayR7XXcj4JQ6BO8CJsRj-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="180" as="sourcePoint" />
             <mxPoint x="527.6199999999999" y="180.00000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ayR7XXcj4JQ6BO8CJsRj-5" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;plan_id&lt;br&gt;return_ur&lt;/font&gt;l&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="190" width="80" height="20" as="geometry" />
+        <mxCell id="ayR7XXcj4JQ6BO8CJsRj-5" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;(will be POST instead of PUT) plan_id&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="191" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ayR7XXcj4JQ6BO8CJsRj-6" value="recurring charges" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.499;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ayR7XXcj4JQ6BO8CJsRj-3">
           <mxGeometry relative="1" as="geometry">
