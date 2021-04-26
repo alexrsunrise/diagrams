@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T15:39:46.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="6EP2q3WM5xsJWCw1PHI4" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T15:43:24.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="8YCwEEIlVEhCqf1PV_VK" version="14.4.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
             <mxPoint x="470" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-20" value="&lt;ul&gt;&lt;li&gt;Cloud Scheduler runs a job at a pre-determined interval (f.e. one hour)&lt;/li&gt;&lt;li&gt;Cloud Scheduler uses ReCharge NetSuite App as an HTTP target and posts a&amp;nbsp; request with secure token&lt;/li&gt;&lt;li&gt;KIND configuration of ReCharge NetSuite App ensures each request from Cloud Scheduler is only run on one Docker instance&lt;/li&gt;&lt;li&gt;ReCharge NetSuite App uses cron table in DB to keep track of cron jobs&lt;/li&gt;&lt;li&gt;For each account (store), ReCharge NetSuite App selects orders that failed due to concurrency and resends them to NetSuite&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-20" value="&lt;ul&gt;&lt;li&gt;Cloud Scheduler runs a job at a pre-determined interval (f.e. one hour)&lt;/li&gt;&lt;li&gt;Cloud Scheduler uses ReCharge NetSuite App as an HTTP target and posts a&amp;nbsp; request with secure token&lt;/li&gt;&lt;li&gt;K8s configuration of ReCharge NetSuite App ensures each request from Cloud Scheduler is only run on one Docker instance&lt;/li&gt;&lt;li&gt;ReCharge NetSuite App uses cron table in DB to keep track of cron jobs&lt;/li&gt;&lt;li&gt;For each account (store), ReCharge NetSuite App selects orders that failed due to concurrency and resends them to NetSuite&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="90" width="800" height="110" as="geometry" />
         </mxCell>
         <mxCell id="5lqTesDTH3VOZEeoD3JM-21" value="HTTP request secured with token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
