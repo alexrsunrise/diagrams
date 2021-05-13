@@ -1,82 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T15:43:24.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="8YCwEEIlVEhCqf1PV_VK" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T19:59:27.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="5BmkajEfq6lqerH6uxqM" version="14.6.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="163" y="220" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-2" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ReCharge NetSuite App Cron&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-2" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ReCharge NetSuite App Cron&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="50" width="400" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-3" value="Cloud Scheduler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-3" value="Cloud Scheduler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="193" y="265" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="100" y="420" width="256" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-5" value="ReCharge NetSuite App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-5" value="ReCharge NetSuite App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="153" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5lqTesDTH3VOZEeoD3JM-1" target="5lqTesDTH3VOZEeoD3JM-4">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5lqTesDTH3VOZEeoD3JM-1" target="5lqTesDTH3VOZEeoD3JM-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="470" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-8" value="K8s load balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-8" value="K8s load balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="475" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="130" y="540" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="250" y="540" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-11" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-11" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="570" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-12" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-12" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="570" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-13" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="500" as="sourcePoint" />
             <mxPoint x="169.5" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-15" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="500" as="sourcePoint" />
             <mxPoint x="289.5" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="650" y="360" width="90" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-17" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-17" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="675" y="430" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-19" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lqTesDTH3VOZEeoD3JM-4" target="5lqTesDTH3VOZEeoD3JM-16">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-19" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5lqTesDTH3VOZEeoD3JM-4" target="5lqTesDTH3VOZEeoD3JM-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="540" as="sourcePoint" />
             <mxPoint x="470" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-20" value="&lt;ul&gt;&lt;li&gt;Cloud Scheduler runs a job at a pre-determined interval (f.e. one hour)&lt;/li&gt;&lt;li&gt;Cloud Scheduler uses ReCharge NetSuite App as an HTTP target and posts a&amp;nbsp; request with secure token&lt;/li&gt;&lt;li&gt;K8s configuration of ReCharge NetSuite App ensures each request from Cloud Scheduler is only run on one Docker instance&lt;/li&gt;&lt;li&gt;ReCharge NetSuite App uses cron table in DB to keep track of cron jobs&lt;/li&gt;&lt;li&gt;For each account (store), ReCharge NetSuite App selects orders that failed due to concurrency and resends them to NetSuite&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-20" value="&lt;ul&gt;&lt;li&gt;Cloud Scheduler runs a job at a pre-determined interval (f.e. one hour)&lt;/li&gt;&lt;li&gt;Cloud Scheduler uses ReCharge NetSuite App as an HTTP target and posts a&amp;nbsp; request with secure token&lt;/li&gt;&lt;li&gt;K8s configuration of ReCharge NetSuite App ensures each request from Cloud Scheduler is only run on one Docker instance&lt;/li&gt;&lt;li&gt;ReCharge NetSuite App uses cron table in DB to keep track of cron jobs&lt;/li&gt;&lt;li&gt;For each account (store), ReCharge NetSuite App selects orders that failed due to concurrency and resends them to NetSuite&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="90" width="800" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-21" value="HTTP request secured with token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-21" value="HTTP request with app key in payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="370" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-22" value="Keep track of cron jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-22" value="Keep track of cron jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="450" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5lqTesDTH3VOZEeoD3JM-24" value="Select and resend concurrency failed orders for each account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5lqTesDTH3VOZEeoD3JM-24" value="Select and resend concurrency failed orders for each account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="505" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
