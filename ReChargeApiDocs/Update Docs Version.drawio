@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T20:52:30.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="xrveJm2dVnZO7oKZL9NB" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T20:58:30.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="gxyE5cdUG0TOTVaTVYc-" version="14.8.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -83,10 +83,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uKZjJw9-pBGUI3rMbUET-27" value="&lt;font style=&quot;font-size: 10px&quot;&gt;update json with store specific data if authenticated store&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="430" width="140" height="30" as="geometry" />
+          <mxGeometry x="550" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xiZ9pmM4k6IGmCzsRi7X-2" value="&lt;span style=&quot;font-size: 10px&quot;&gt;update request sections with data for chosen langage&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="555" y="480" width="140" height="20" as="geometry" />
+          <mxGeometry x="550" y="440" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xiZ9pmM4k6IGmCzsRi7X-4" value="&lt;font style=&quot;font-size: 10px&quot;&gt;update json data with store specific info&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="577.5" y="540" width="85" height="20" as="geometry" />
