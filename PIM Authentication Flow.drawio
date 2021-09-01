@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T21:40:32.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="0NupLRHMlbARbnjHtRB_" version="15.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-01T21:45:41.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="cK_1W-93u5yZm_OznEEV" version="15.0.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1306" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TPHXrGvYeUuMaKjNGiBd-49" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="340" y="650" width="70" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-38" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="340" y="462" width="370" height="148" as="geometry" />
         </mxCell>
@@ -39,9 +42,6 @@
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-2" value="ReCharge API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="80" width="100" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="TPHXrGvYeUuMaKjNGiBd-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TPHXrGvYeUuMaKjNGiBd-2">
-          <mxGeometry x="45" y="90" width="10" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="500" y="270" width="60" height="70" as="geometry" />
         </mxCell>
@@ -58,7 +58,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="290" width="10" height="390" as="geometry" />
+          <mxGeometry x="345" y="290" width="10" height="430" as="geometry" />
         </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-15" value="check if my-test-store" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.494;exitY=0.265;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=9;fontStyle=0" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -137,6 +137,21 @@
         </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-47" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="685" y="462" width="10" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="TPHXrGvYeUuMaKjNGiBd-48" value="redirect to products page&#xa;set session cookie" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="602" as="sourcePoint" />
+            <mxPoint x="169.5" y="602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPHXrGvYeUuMaKjNGiBd-50" value="&lt;font size=&quot;1&quot;&gt;If exchange fails&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TPHXrGvYeUuMaKjNGiBd-53" value="redirect to login page&#xa;with error message" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340.5" y="669.5" as="sourcePoint" />
+            <mxPoint x="170" y="669.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
