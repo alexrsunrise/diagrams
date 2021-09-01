@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T21:45:41.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="cK_1W-93u5yZm_OznEEV" version="15.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-01T21:46:58.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Un2uYXYPjDIexdHMJnRw" version="15.0.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1306" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-49" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="340" y="650" width="70" height="40" as="geometry" />
+          <mxGeometry x="340" y="660" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-38" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="340" y="462" width="370" height="148" as="geometry" />
@@ -144,8 +144,8 @@
             <mxPoint x="169.5" y="602" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPHXrGvYeUuMaKjNGiBd-50" value="&lt;font size=&quot;1&quot;&gt;If exchange fails&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="340" y="630" width="110" height="20" as="geometry" />
+        <mxCell id="TPHXrGvYeUuMaKjNGiBd-50" value="&lt;font size=&quot;1&quot;&gt;If exchange&lt;br&gt;&amp;nbsp;fails&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="355" y="636" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TPHXrGvYeUuMaKjNGiBd-53" value="redirect to login page&#xa;with error message" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
