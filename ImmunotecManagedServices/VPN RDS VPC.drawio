@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T15:35:33.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="dgNdTUKvDnDy0KUI1rZO" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T15:39:03.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="eB1Do0PqwBMKhfatxijE" version="15.3.2" type="github">
   <diagram id="Ng4vTh4RIxkkyutnl7do" name="Page-1">
     <mxGraphModel dx="1629" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -36,8 +36,8 @@
         <mxCell id="3DtsWVznEwY_HvSgMNmU-46" value="VPC Flow Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="748" y="174" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3DtsWVznEwY_HvSgMNmU-47" value="&lt;font style=&quot;font-size: 16px&quot;&gt;VPN RDC VPC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="348" y="20" width="140" height="20" as="geometry" />
+        <mxCell id="3DtsWVznEwY_HvSgMNmU-47" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Virtual Private Network / Remote Desktop VPC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="304" y="20" width="242" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3DtsWVznEwY_HvSgMNmU-48" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="290" width="103" height="80" as="geometry" />
