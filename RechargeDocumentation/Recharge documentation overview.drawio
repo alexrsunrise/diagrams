@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T17:12:52.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="jxPIKIZt6brMgbC0DEDl" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T17:13:25.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="q6j1eshizgYCR8zRtS3X" version="15.8.9" type="github">
   <diagram id="McnBqX_8OXEuc_d459IT" name="Page-1">
     <mxGraphModel dx="1278" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,9 +115,6 @@
         </mxCell>
         <mxCell id="wLzdfKrcWUK0gIP68M67-36" value="Statically Generated&lt;br&gt;Website" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="385" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wLzdfKrcWUK0gIP68M67-40" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wLzdfKrcWUK0gIP68M67-41" value="Recharge Docs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="35" y="320" width="60" height="30" as="geometry" />
