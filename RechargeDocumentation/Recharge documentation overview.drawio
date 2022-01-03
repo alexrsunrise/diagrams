@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T23:16:03.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="jp7ll6vAMSHTubSgu_ZW" version="15.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-03T23:17:58.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="0_SF-bO4Oohpl8uSvfoR" version="15.9.5" type="github">
   <diagram id="McnBqX_8OXEuc_d459IT" name="Page-1">
     <mxGraphModel dx="1174" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -451,7 +451,7 @@
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="9h9Ux4YRKQZeNhD9gGjw-136">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="3200" as="targetPoint" />
+            <mxPoint x="130" y="3160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-136" value="Client Front End" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
@@ -459,7 +459,7 @@
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startArrow=none;" edge="1" parent="1" source="9h9Ux4YRKQZeNhD9gGjw-164">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="3200" as="targetPoint" />
+            <mxPoint x="350" y="3160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-143" value="Server Backend" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
@@ -467,7 +467,7 @@
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startArrow=none;" edge="1" parent="1" source="9h9Ux4YRKQZeNhD9gGjw-161">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="575" y="3200" as="targetPoint" />
+            <mxPoint x="575" y="3160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-145" value="Tax Provider API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
@@ -506,7 +506,7 @@
             <mxPoint x="352" y="2960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9h9Ux4YRKQZeNhD9gGjw-154" value="POST /api/{serviceType}&amp;nbsp;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=13;" connectable="0" vertex="1" parent="9h9Ux4YRKQZeNhD9gGjw-153">
+        <mxCell id="9h9Ux4YRKQZeNhD9gGjw-154" value="AJAX Call to Service Type&lt;br&gt;Endpoint" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=13;" connectable="0" vertex="1" parent="9h9Ux4YRKQZeNhD9gGjw-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9h9Ux4YRKQZeNhD9gGjw-155" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
@@ -553,6 +553,15 @@
             <mxPoint x="350" y="3200" as="targetPoint" />
             <mxPoint x="350" y="2996" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9h9Ux4YRKQZeNhD9gGjw-166" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="3080" as="sourcePoint" />
+            <mxPoint x="130" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9h9Ux4YRKQZeNhD9gGjw-167" value="&amp;nbsp;Tax Data Response" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=13;" connectable="0" vertex="1" parent="9h9Ux4YRKQZeNhD9gGjw-166">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
