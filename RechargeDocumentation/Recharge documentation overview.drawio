@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T20:42:43.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="P38pJfvjkplDn0PLmIKP" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T20:48:34.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="paj-dd7fSB4M2O0zZ48C" version="16.2.2" type="github">
   <diagram id="McnBqX_8OXEuc_d459IT" name="Page-1">
     <mxGraphModel dx="1281" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -657,6 +657,12 @@
         </mxCell>
         <mxCell id="vydbFo16s2wGKLSITsfW-21" value="&lt;h1&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Pipelines:&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;1. Normal Staging - yarn build, yarn serve (env staging)&lt;/p&gt;&lt;p&gt;2 Normal Production - yarn build, yarn serve (env production)&lt;/p&gt;&lt;p&gt;3 Static Production - yarn build, yarn generate deploy, take dist folder and place on static server&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="3900" width="370" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="vydbFo16s2wGKLSITsfW-22" value="NOTE: &lt;br&gt;1) During static generation env variables should be available during build time. Probably put them into Dockerfile&lt;br&gt;2) During static generation there should be access to make API calls. Outgoing ports should be open on build server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="131" y="4360" width="569" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vydbFo16s2wGKLSITsfW-23" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Goal: Deploy Nuxt.js codebase both as Static and Server Side Rendered Application&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="112" y="3880" width="638" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
