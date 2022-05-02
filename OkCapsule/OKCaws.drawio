@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T21:32:45.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DWRds6124qhLNjdK5PBZ" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T21:33:04.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="N7DAtg2Sm91Q_siYFYhD" version="17.4.6" type="github">
   <diagram id="B711Nq-13bUBLQg4mgnX" name="Page-1">
     <mxGraphModel dx="1702" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
           <mxGeometry x="30" y="320" width="48" height="46.77" as="geometry" />
         </mxCell>
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-15" value="Serverless managed Fargate Cluster" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-1">
-          <mxGeometry x="150" y="139" width="510" height="130" as="geometry" />
+          <mxGeometry x="300" y="139" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uH_7tXP3TRjuPGbnzwqY-1" source="uH_7tXP3TRjuPGbnzwqY-16" target="uH_7tXP3TRjuPGbnzwqY-17">
           <mxGeometry relative="1" as="geometry" />
