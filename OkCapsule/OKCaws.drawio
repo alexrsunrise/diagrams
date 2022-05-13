@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T20:28:10.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="B3JokxcMBn0uYyJCTju8" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T13:43:33.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="x7Ylc8JUA4ctTAYVF_-2" version="17.4.6" type="github">
   <diagram id="B711Nq-13bUBLQg4mgnX" name="Page-1">
     <mxGraphModel dx="1439" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -164,9 +164,6 @@
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-42" value="172.31.32.0/20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-41">
           <mxGeometry x="25" y="23.389999999999986" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uH_7tXP3TRjuPGbnzwqY-54" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-41">
-          <mxGeometry x="46" y="120" width="45" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-43" value="Availability Zone" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-1">
           <mxGeometry x="530" y="50" width="170" height="430" as="geometry" />
         </mxCell>
@@ -238,13 +235,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-69" value="NAT Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58536;gradientColor=none;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-1">
-          <mxGeometry x="440" y="154.99999999999997" width="29" height="30" as="geometry" />
+          <mxGeometry x="450" y="136.76999999999998" width="29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uH_7tXP3TRjuPGbnzwqY-1" source="uH_7tXP3TRjuPGbnzwqY-66" target="uH_7tXP3TRjuPGbnzwqY-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="369" />
-              <mxPoint x="430" y="170" />
+              <mxPoint x="430" y="152" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -257,8 +254,11 @@
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uH_7tXP3TRjuPGbnzwqY-1" source="uH_7tXP3TRjuPGbnzwqY-76" target="uH_7tXP3TRjuPGbnzwqY-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uH_7tXP3TRjuPGbnzwqY-63" value="Serverless Shopify App Fargate Cluster" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" vertex="1" parent="1">
-          <mxGeometry x="258" y="1380" width="390" height="66" as="geometry" />
+        <mxCell id="uH_7tXP3TRjuPGbnzwqY-54" value="Shopify App prod" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-1">
+          <mxGeometry x="353" y="224" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uH_7tXP3TRjuPGbnzwqY-86" value="Shopify App Dev" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;" vertex="1" parent="uH_7tXP3TRjuPGbnzwqY-1">
+          <mxGeometry x="580" y="166.77" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="uH_7tXP3TRjuPGbnzwqY-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uH_7tXP3TRjuPGbnzwqY-75">
           <mxGeometry relative="1" as="geometry">
