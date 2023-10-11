@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T19:58:19.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="I3rdKQYQp8lyD_sjyfKy" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-11T20:00:58.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gboxC9U7IgPXrKCt9Xmp" version="22.0.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -549,11 +549,16 @@
         <mxCell id="0oNataXZWL0hr_xPA27F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0oNataXZWL0hr_xPA27F-1" target="0oNataXZWL0hr_xPA27F-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0oNataXZWL0hr_xPA27F-90" value="Add to Cart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0oNataXZWL0hr_xPA27F-4">
+          <mxGeometry x="-0.2342" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-1" value="Pack Builder Widget" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="100" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-2" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Option 1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="30" width="210" height="30" as="geometry" />
+          <mxGeometry x="392" y="24" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oNataXZWL0hr_xPA27F-3" target="0oNataXZWL0hr_xPA27F-13">
           <mxGeometry relative="1" as="geometry" />
@@ -587,6 +592,11 @@
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0oNataXZWL0hr_xPA27F-13" target="0oNataXZWL0hr_xPA27F-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oNataXZWL0hr_xPA27F-91" value="Orders Paid webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0oNataXZWL0hr_xPA27F-30">
+          <mxGeometry x="-0.0928" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-13" value="Checkout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="262.5" y="600" width="245" height="50" as="geometry" />
@@ -625,7 +635,7 @@
           <mxGeometry x="105" y="1230" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-35" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Option 2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="268" y="1120" width="210" height="30" as="geometry" />
+          <mxGeometry x="390" y="1148" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oNataXZWL0hr_xPA27F-37" target="0oNataXZWL0hr_xPA27F-47">
           <mxGeometry relative="1" as="geometry" />
@@ -676,12 +686,15 @@
         <mxCell id="0oNataXZWL0hr_xPA27F-55" value="&lt;b&gt;Shopify Lambda&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="212.5" y="1920" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0oNataXZWL0hr_xPA27F-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oNataXZWL0hr_xPA27F-57" target="0oNataXZWL0hr_xPA27F-58">
+        <mxCell id="0oNataXZWL0hr_xPA27F-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="0oNataXZWL0hr_xPA27F-58">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="647.11" y="1465.2" as="sourcePoint" />
+            <mxPoint x="237.0000000000001" y="1375" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="1460" />
-              <mxPoint x="410" y="1393" />
-              <mxPoint x="265" y="1393" />
+              <mxPoint x="407" y="1465" />
+              <mxPoint x="407" y="1398" />
+              <mxPoint x="243" y="1398" />
+              <mxPoint x="243" y="1375" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -708,7 +721,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-58" value="Before Cart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175.25" y="1370" width="90" height="30" as="geometry" />
+          <mxGeometry x="175" y="1335" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oNataXZWL0hr_xPA27F-65" target="0oNataXZWL0hr_xPA27F-57">
           <mxGeometry relative="1" as="geometry" />
@@ -748,7 +761,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0oNataXZWL0hr_xPA27F-86" value="&lt;h1&gt;Pros&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;* &lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fairly easy to implement.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;Add logic to Lambda and Pack Builder Widget&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0oNataXZWL0hr_xPA27F-86" value="&lt;h1&gt;Pros&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;* &lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fairly easy to implement compared to Option 2.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;Add logic to Lambda and Pack Builder Widget&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="602" y="805" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0oNataXZWL0hr_xPA27F-87" value="&lt;h1&gt;Cons&lt;/h1&gt;&lt;div&gt;*&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&quot;Messy&quot; cart for customers.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;Customers may get confused&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
