@@ -1,0 +1,53 @@
+<mxfile host="65bd71144e">
+    <diagram id="wyWZIUq6vN-r4Iih93d5" name="Page-1">
+        <mxGraphModel dx="1000" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="GET my-store.com/a/configurator" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="-0.2038" y="1" relative="1" as="geometry">
+                        <mxPoint x="18" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E8D5;strokeColor=#8BBA74;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="110" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="GET fulfillment-service.okcapsule.app&lt;br&gt;/proxy/configurator" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8">
+                    <mxGeometry x="0.0332" y="1" relative="1" as="geometry">
+                        <mxPoint x="-3" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Shopify Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#1C7CA5;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="110" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="OKC Shopify App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#A07EA9;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="110" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Shopify Store Frontend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="120" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Configurator page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Configurator Page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Configurator&lt;br&gt;Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7FCE8;strokeColor=#8BBA74;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="170" width="100" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
