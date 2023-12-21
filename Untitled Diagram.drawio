@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="6">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="1073" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1073" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -857,25 +857,27 @@
         </mxGraphModel>
     </diagram>
     <diagram id="aBzoJijzLMtjYRSMFBYY" name="Genexus Pre-order App">
-        <mxGraphModel dx="1073" dy="374" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1073" dy="566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-1" target="XVyu5kYQA-bPbC0o1fh3-2" edge="1">
+                <mxCell id="XVyu5kYQA-bPbC0o1fh3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-1" target="XVyu5kYQA-bPbC0o1fh3-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-1" target="XVyu5kYQA-bPbC0o1fh3-22" edge="1">
+                <mxCell id="XVyu5kYQA-bPbC0o1fh3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-1" target="XVyu5kYQA-bPbC0o1fh3-22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="205" y="323"/>
+                            <mxPoint x="270" y="168"/>
+                            <mxPoint x="338" y="168"/>
+                            <mxPoint x="338" y="234"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-1" value="Merchant marks product as pre-order" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="120" width="130" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-2" value="Product pre-order metafield &lt;br&gt;and quantities are added" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="425" y="120" width="130" height="100" as="geometry"/>
+                <mxCell id="XVyu5kYQA-bPbC0o1fh3-2" value="Values are set for product pre-order and pre-order ETA metafields" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="427" y="112" width="202" height="66" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-5" target="XVyu5kYQA-bPbC0o1fh3-6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -909,39 +911,20 @@
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-13" value="orders/paid webhook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="161.5" y="1169" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-14" value="- Record pre-ordered order items in DB&lt;br&gt;- Update pre-ordered quantities for products in DB&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="385.5" y="1132" width="289" height="134" as="geometry"/>
+                <mxCell id="XVyu5kYQA-bPbC0o1fh3-14" value="Record pre-ordered order items in DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="471" y="1170.5" width="178" height="57" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-17" target="XVyu5kYQA-bPbC0o1fh3-18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-17" value="fulfillments/created webhook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="161.5" y="1348" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="161.5" y="1306" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-18" value="Update items as fulfilled&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="484.5" y="1348" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="471" y="1306" width="179" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-22" value="Create record of product in DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="425" y="273" width="130" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-24" target="XVyu5kYQA-bPbC0o1fh3-25" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-24" target="XVyu5kYQA-bPbC0o1fh3-28" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="216" y="627"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-24" value="Merchant unmarks product as pre-order" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="151" y="424" width="130" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-25" value="Product pre-order metafield is removed" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="436" y="424" width="130" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="XVyu5kYQA-bPbC0o1fh3-28" value="Product record is removed from the DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="436" y="577" width="130" height="100" as="geometry"/>
+                <mxCell id="XVyu5kYQA-bPbC0o1fh3-22" value="Set coresponding Shopify product as pre-order in WHC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="423" y="204" width="207" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="XVyu5kYQA-bPbC0o1fh3-31" target="XVyu5kYQA-bPbC0o1fh3-34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -952,24 +935,24 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-                    <mxGeometry x="116" y="1445" width="232" height="232" as="geometry"/>
+                    <mxGeometry x="116" y="1594" width="232" height="232" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-32" value="Shopify PDP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="176.5" y="1453" width="111" height="30" as="geometry"/>
+                    <mxGeometry x="176.5" y="1602" width="111" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-33" value="App Embed Block" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="169" y="1579" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="169" y="1728" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-34" value="Shopify Cart" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="466" y="1524" width="149" height="145.25" as="geometry"/>
+                    <mxGeometry x="466" y="1673" width="149" height="145.25" as="geometry"/>
                 </mxCell>
                 <mxCell id="XVyu5kYQA-bPbC0o1fh3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.027;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="286" y="1609" as="sourcePoint"/>
-                        <mxPoint x="467.0229999999999" y="1608.97125" as="targetPoint"/>
+                        <mxPoint x="286" y="1758" as="sourcePoint"/>
+                        <mxPoint x="467.0229999999999" y="1757.97125" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="463" y="1609"/>
-                            <mxPoint x="463" y="1609"/>
+                            <mxPoint x="463" y="1758"/>
+                            <mxPoint x="463" y="1758"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -1283,6 +1266,36 @@
                 </mxCell>
                 <mxCell id="IG0O0L4uKxXXBaD9BX7I-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;" parent="1" source="IG0O0L4uKxXXBaD9BX7I-54" target="IG0O0L4uKxXXBaD9BX7I-84" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1Ige_HZWUUwRkDxap6zG-4" target="1Ige_HZWUUwRkDxap6zG-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1Ige_HZWUUwRkDxap6zG-4" target="1Ige_HZWUUwRkDxap6zG-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="274" y="402"/>
+                            <mxPoint x="342" y="402"/>
+                            <mxPoint x="342" y="468"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-4" value="Merchant marks product as pre-order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="144" y="354" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-5" value="Values are cleared for product pre-order and pre-order ETA metafields" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="431" y="346" width="202" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-6" value="Clear coresponding Shopify product as pre-order in WHC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="427" y="438" width="207" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Ige_HZWUUwRkDxap6zG-8" target="1Ige_HZWUUwRkDxap6zG-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-8" value="products/updated webhook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="161.5" y="1448" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1Ige_HZWUUwRkDxap6zG-9" value="Set/clear product as pre-order in WHC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="469" y="1448" width="184" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
