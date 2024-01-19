@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T18:02:16.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="VcUNE-r2mFY5mevvqTPr" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-19T19:06:48.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="25-flBbnrpsovXFh5sL-" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1617,7 +1617,7 @@
         <mxCell id="evW40Sgpf9hT19ICH4EE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="evW40Sgpf9hT19ICH4EE-2" target="evW40Sgpf9hT19ICH4EE-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="evW40Sgpf9hT19ICH4EE-5" value="Get User Type" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="evW40Sgpf9hT19ICH4EE-4">
+        <mxCell id="evW40Sgpf9hT19ICH4EE-5" value="Get custom user fields" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="evW40Sgpf9hT19ICH4EE-4">
           <mxGeometry x="-0.0263" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
