@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T04:20:07.046Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="X-1pXPdxyJ1tZxnjb393" version="22.1.21" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-27T04:24:12.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="7VGZjZmei5RomtzffvBX" version="22.1.21" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1685,7 +1685,7 @@
           <mxGeometry x="100" y="460" width="490" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-21" value="Presentation / UI Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="475" width="160" height="30" as="geometry" />
+          <mxGeometry x="600" y="473" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="590" width="480" height="60" as="geometry" />
@@ -1697,7 +1697,7 @@
           <mxGeometry x="100" y="720" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-25" value="Data Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="735" width="160" height="30" as="geometry" />
+          <mxGeometry x="600" y="735" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-26" value="Shopify Admin Embed &lt;br&gt;(Remix Frontend)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="110" y="475" width="197.5" height="30" as="geometry" />
