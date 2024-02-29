@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T22:00:59.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OvjJA10tGQrCm3tqLl-U" version="22.1.21" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-29T22:11:54.067Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ufnMmuRGxyqloDr3njMA" version="22.1.21" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1636,8 +1636,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-52" value="Azure Cloud" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="30" width="502" height="294" as="geometry" />
+        </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="148" y="99" width="150" height="200" as="geometry" />
+          <mxGeometry x="64" y="98" width="150" height="200" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-4" target="6VQXfWjlgHor3f9kZSkg-45">
           <mxGeometry relative="1" as="geometry">
@@ -1645,10 +1648,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-3" value="Shopify Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180.5" y="109" width="85" height="30" as="geometry" />
+          <mxGeometry x="96.5" y="108" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-4" value="Embeded&lt;br&gt;App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="163" y="149" width="120" height="130" as="geometry" />
+          <mxGeometry x="79" y="148" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-14" value="Sessions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="659" y="54" width="80" height="104" as="geometry" />
@@ -1718,11 +1721,14 @@
             <mxPoint x="663" y="215.375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6VQXfWjlgHor3f9kZSkg-45" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-45" value="Azure Kubernetes&lt;br&gt;Service" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="439" y="174.1" width="93.57" height="82.56" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-46" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
           <mxGeometry x="664" y="164.88" width="75" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-53" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud;" vertex="1" parent="1">
+          <mxGeometry x="293" y="15" width="50" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
