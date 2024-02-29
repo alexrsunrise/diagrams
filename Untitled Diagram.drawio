@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T23:02:04.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GfoNjclBMYgzuDAUf2P_" version="22.1.21" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-29T23:36:26.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="nT6PSR76P-ApXjni9_eC" version="22.1.21" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1632,7 +1632,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CGaITinwsKexK67ANoOV" name="OT diagrams">
-    <mxGraphModel dx="1562" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1801,6 +1801,45 @@
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-91" value="Update customer consent in Shopify&#39;s Privacy API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="343" y="1633" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-95" target="6VQXfWjlgHor3f9kZSkg-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-95" value="Display consent banner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="1828" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-97" target="6VQXfWjlgHor3f9kZSkg-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-97" value="Get domain JSON for Domain ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="1944" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-106" target="6VQXfWjlgHor3f9kZSkg-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-106" value="Get OT consent settings using appropriate ruleset&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="2047" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-108" target="6VQXfWjlgHor3f9kZSkg-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-108" value="Collect customer consent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="2161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-112" target="6VQXfWjlgHor3f9kZSkg-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-112" value="Map OT Consent Codes to Shopify&#39;s Privacy API signals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="2268" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-113" target="6VQXfWjlgHor3f9kZSkg-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-113" value="Update customer consent in Shopify&#39;s Privacy API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="2386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-115" value="Set OptanonConsent cookie with datestamp and groups" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="2486" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
