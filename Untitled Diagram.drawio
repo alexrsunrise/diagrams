@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T22:30:53.512Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="41ivQEWezQmv6kBp8gjH" version="22.1.21" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-29T23:02:04.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GfoNjclBMYgzuDAUf2P_" version="22.1.21" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1756,6 +1756,51 @@
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-73" value="Application&lt;br&gt;Datastore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="666" y="863.5" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-75" target="6VQXfWjlgHor3f9kZSkg-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-75" value="Embed OT Cookie&lt;br&gt;Consent Script&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1156" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-79" target="6VQXfWjlgHor3f9kZSkg-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-79" value="Listen to onconsent.onetrust&lt;br&gt;Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-81" target="6VQXfWjlgHor3f9kZSkg-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="533" y="1420" />
+              <mxPoint x="533" y="1302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-88" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6VQXfWjlgHor3f9kZSkg-87">
+          <mxGeometry x="-0.7122" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-81" target="6VQXfWjlgHor3f9kZSkg-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-93" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6VQXfWjlgHor3f9kZSkg-90">
+          <mxGeometry x="-0.1564" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-81" value="Event &lt;br&gt;Fired" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="1380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-89" target="6VQXfWjlgHor3f9kZSkg-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-89" value="Map OT Consent Codes to Shopify&#39;s Privacy API signals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-91" value="Update customer consent in Shopify&#39;s Privacy API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1633" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
