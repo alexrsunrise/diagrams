@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T15:23:28.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="bu7d8AEwVgCLo3lUKgYb" version="22.1.21" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-01T18:30:45.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4l_YXNPQA_slyXDSAonX" version="22.1.21" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1562" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1814,43 +1814,103 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-95" value="Display consent banner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="1828" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1853" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-97" target="6VQXfWjlgHor3f9kZSkg-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-97" value="Get domain JSON for Domain ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="1944" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1955" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6VQXfWjlgHor3f9kZSkg-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-106" target="6VQXfWjlgHor3f9kZSkg-108">
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-106" target="6VQXfWjlgHor3f9kZSkg-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-106" value="Get OT consent settings using appropriate ruleset&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="2047" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="2068" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-108" target="6VQXfWjlgHor3f9kZSkg-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-108" value="Collect customer consent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="2161" width="120" height="60" as="geometry" />
+          <mxGeometry x="343" y="2027" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-112" target="6VQXfWjlgHor3f9kZSkg-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-112" value="Map OT Consent codes to Shopify&#39;s Privacy API signals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="2268" width="120" height="60" as="geometry" />
+          <mxGeometry x="343" y="2154" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-113" target="6VQXfWjlgHor3f9kZSkg-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-113" value="Update customer consent in Shopify&#39;s Privacy API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="2386" width="120" height="60" as="geometry" />
+          <mxGeometry x="343" y="2272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-115" target="6VQXfWjlgHor3f9kZSkg-125">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-115" value="Set OptanonConsent cookie with datestamp and groups" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="2486" width="120" height="60" as="geometry" />
+          <mxGeometry x="343" y="2382" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VQXfWjlgHor3f9kZSkg-117" value="&lt;font color=&quot;#ff0000&quot;&gt;Currently unavailable in checkout&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="489" y="2498" width="200" height="30" as="geometry" />
+          <mxGeometry x="311" y="2445" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-119" target="6VQXfWjlgHor3f9kZSkg-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-119" value="Check Shopify&#39;s Privacy API if consent is set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-132" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-121" target="6VQXfWjlgHor3f9kZSkg-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-121" target="6VQXfWjlgHor3f9kZSkg-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-141" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6VQXfWjlgHor3f9kZSkg-140">
+          <mxGeometry x="-0.8165" y="-1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-121" value="Consent&lt;br&gt;set?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2267" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-123" target="6VQXfWjlgHor3f9kZSkg-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-123" value="Open Modal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1909" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-125" target="6VQXfWjlgHor3f9kZSkg-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-125" value="Listen for consent banner button clicked" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-127" target="6VQXfWjlgHor3f9kZSkg-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="2522" />
+              <mxPoint x="195" y="2427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-139" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6VQXfWjlgHor3f9kZSkg-134">
+          <mxGeometry x="-0.8065" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VQXfWjlgHor3f9kZSkg-127" target="6VQXfWjlgHor3f9kZSkg-123">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="2590" />
+              <mxPoint x="562" y="2590" />
+              <mxPoint x="562" y="1939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VQXfWjlgHor3f9kZSkg-127" value="Button clicked?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2482" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
