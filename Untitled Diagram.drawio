@@ -69,11 +69,17 @@
         <mxCell id="OO_lLoiiVZ8UmQsB7jjR-10" value="business volume&lt;div&gt;commisionable volume&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-577" y="203" width="232" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Fbq5cUorgKyG9aidBb1q-2" value="is virtual" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="219" width="60" height="30" as="geometry" />
+        <mxCell id="Fbq5cUorgKyG9aidBb1q-2" value="virtual item" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-303" y="219" width="73" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Fbq5cUorgKyG9aidBb1q-4" value="new" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-212" y="212.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-212" y="212.5" width="67" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbq5cUorgKyG9aidBb1q-6" value="3 for free items&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-261" y="256" width="109" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbq5cUorgKyG9aidBb1q-7" value="allow recurring order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-368" y="284" width="109" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
