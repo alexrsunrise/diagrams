@@ -28,7 +28,7 @@
         <mxCell id="P4aSkBnPcdyIXx4S7coX-11" value="&lt;div&gt;&lt;div&gt;enroller id,&lt;/div&gt;&lt;div&gt;sponsor id&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="306.5" y="334" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P4aSkBnPcdyIXx4S7coX-13" value="???&lt;div&gt;Emails subscribe date&lt;div&gt;Email unsubscribe date&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="P4aSkBnPcdyIXx4S7coX-13" value="???&lt;div&gt;Emails subscribe date&lt;div&gt;Emails unsubscribe date&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="493" y="352" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xrtSf5TSivC_NADfwaRk-1" value="Attribution goes by enroller id" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
