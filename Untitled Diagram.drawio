@@ -13,7 +13,7 @@
         <mxCell id="P4aSkBnPcdyIXx4S7coX-4" value="customer type:&lt;div&gt;Distributor, Member, Retail Customer&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="292" y="182" width="149" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="P4aSkBnPcdyIXx4S7coX-7" value="customer status&lt;div&gt;active, inactive, any other statuses?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="P4aSkBnPcdyIXx4S7coX-7" value="customer status:&lt;div&gt;active, inactive&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="528" y="175" width="148" height="44" as="geometry" />
         </mxCell>
         <mxCell id="P4aSkBnPcdyIXx4S7coX-8" value="email&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;mobile phone&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -22,14 +22,17 @@
         <mxCell id="P4aSkBnPcdyIXx4S7coX-9" value="Main address,&lt;div&gt;Main city, etc&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="41" y="364" width="211" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P4aSkBnPcdyIXx4S7coX-10" value="Do we initially sync only active customers??" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+        <mxCell id="P4aSkBnPcdyIXx4S7coX-10" value="Initially sync active customers&lt;div&gt;How to check when customer becomes inactive?&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="477" y="208" width="100" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="P4aSkBnPcdyIXx4S7coX-11" value="???&lt;div&gt;rank id,&lt;div&gt;enroller id,&lt;/div&gt;&lt;div&gt;sponsor id&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="362" width="120" height="60" as="geometry" />
+        <mxCell id="P4aSkBnPcdyIXx4S7coX-11" value="&lt;div&gt;&lt;div&gt;enroller id,&lt;/div&gt;&lt;div&gt;sponsor id&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="306.5" y="334" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P4aSkBnPcdyIXx4S7coX-13" value="???&lt;div&gt;Emails subscribe date&lt;div&gt;Email unsubscribe date&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="493" y="352" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrtSf5TSivC_NADfwaRk-1" value="Attribution goes by enroller id" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="265" y="373" width="100" height="112" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
