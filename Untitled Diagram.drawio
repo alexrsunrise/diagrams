@@ -51,7 +51,7 @@
         <mxCell id="OO_lLoiiVZ8UmQsB7jjR-3" value="title&lt;div&gt;description&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="-12" width="182" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-4" value="title&lt;div&gt;description&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-4" value="name&lt;br&gt;&lt;div&gt;description&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-456" y="22" width="182" height="42" as="geometry" />
         </mxCell>
         <mxCell id="OO_lLoiiVZ8UmQsB7jjR-5" value="enrollment kit (true/false):&lt;div&gt;Membership, Promoter starter kit&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
