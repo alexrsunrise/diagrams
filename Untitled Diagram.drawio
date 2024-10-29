@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17" pages="2">
   <diagram name="Customers model" id="f17m6HWCYWsZFhoLFdsz">
     <mxGraphModel dx="1562" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,6 +33,41 @@
         </mxCell>
         <mxCell id="P4aSkBnPcdyIXx4S7coX-13" value="???&lt;div&gt;Emails subscribe date&lt;div&gt;Email unsubscribe date&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="493" y="352" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="luMExgle0pglKCE3nFfc" name="Products model">
+    <mxGraphModel dx="2362" dy="1189" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-1" value="Products" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="-89" width="197" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-2" value="Enrollment products" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-89" width="197" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-3" value="title&lt;div&gt;description&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-12" width="182" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-4" value="title&lt;div&gt;description&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-456" y="22" width="182" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-5" value="enrollment type:&lt;div&gt;Membership, Promoter starter kit&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="356" y="47" width="197" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-6" value="language:&lt;div&gt;English, Spanish, French&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="285" y="124" width="197" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-7" value="flavor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="82" width="197" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-8" value="pack size" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="142" width="197" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-10" value="business volume&lt;div&gt;commisionable volume&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-497" y="238" width="232" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
