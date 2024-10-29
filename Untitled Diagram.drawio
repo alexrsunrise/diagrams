@@ -42,7 +42,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-1" value="Products" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OO_lLoiiVZ8UmQsB7jjR-1" value="Standard Products" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-329" y="-89" width="197" height="65" as="geometry" />
         </mxCell>
         <mxCell id="OO_lLoiiVZ8UmQsB7jjR-2" value="Enrollment products" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -80,6 +80,9 @@
         </mxCell>
         <mxCell id="Fbq5cUorgKyG9aidBb1q-7" value="allow recurring order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-368" y="284" width="109" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbq5cUorgKyG9aidBb1q-8" value="promotion type (new)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-252" y="310" width="109" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
