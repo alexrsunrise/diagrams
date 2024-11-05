@@ -111,12 +111,11 @@
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-36" target="7t_8mVTO04nEGpoZwpga-13">
+        <mxCell id="7t_8mVTO04nEGpoZwpga-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-36" target="7t_8mVTO04nEGpoZwpga-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="78" y="211" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="27" y="342" />
-              <mxPoint x="81" y="342" />
+              <mxPoint x="56" y="314" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -225,11 +224,26 @@
         <mxCell id="7t_8mVTO04nEGpoZwpga-32" value="Commercetools&lt;div&gt;API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="612" y="663" width="124" height="109" as="geometry" />
         </mxCell>
+        <mxCell id="7t_8mVTO04nEGpoZwpga-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-36" target="7t_8mVTO04nEGpoZwpga-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3" y="369" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7t_8mVTO04nEGpoZwpga-40" value="POST /ecommerce/orders&lt;div&gt;Authorization Bearer Token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7t_8mVTO04nEGpoZwpga-39">
+          <mxGeometry x="0.315" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-36" value="ADEE Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-34" y="127" width="120" height="56" as="geometry" />
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-37" value="ADEE Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-34" y="519" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7t_8mVTO04nEGpoZwpga-38" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="26" y="695" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
