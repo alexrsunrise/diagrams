@@ -224,18 +224,6 @@
         <mxCell id="7t_8mVTO04nEGpoZwpga-32" value="Commercetools&lt;div&gt;API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="612" y="663" width="124" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-36" target="7t_8mVTO04nEGpoZwpga-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-3" y="369" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-40" value="POST /ecommerce/orders&lt;div&gt;Authorization Bearer Token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7t_8mVTO04nEGpoZwpga-39">
-          <mxGeometry x="0.315" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-36" value="ADEE Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-34" y="127" width="120" height="56" as="geometry" />
         </mxCell>
