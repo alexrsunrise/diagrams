@@ -97,23 +97,26 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vj_yD4Qjl15TVk4eRov3" name="Authentication Flows">
-    <mxGraphModel dx="1562" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1962" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7t_8mVTO04nEGpoZwpga-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-1" target="7t_8mVTO04nEGpoZwpga-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7t_8mVTO04nEGpoZwpga-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-36" target="7t_8mVTO04nEGpoZwpga-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="96" y="141" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-5" value="/authentication/login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7t_8mVTO04nEGpoZwpga-4">
           <mxGeometry x="0.4056" relative="1" as="geometry">
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-1" target="7t_8mVTO04nEGpoZwpga-13">
+        <mxCell id="7t_8mVTO04nEGpoZwpga-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-36" target="7t_8mVTO04nEGpoZwpga-13">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="211" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="27" y="342" />
               <mxPoint x="81" y="342" />
-              <mxPoint x="216" y="342" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -121,9 +124,6 @@
           <mxGeometry x="0.3063" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="66" y="111" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-2" target="7t_8mVTO04nEGpoZwpga-3">
           <mxGeometry relative="1" as="geometry" />
@@ -133,7 +133,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-2">
+        <mxCell id="7t_8mVTO04nEGpoZwpga-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-2" target="7t_8mVTO04nEGpoZwpga-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="104.5999755859375" y="168.5" as="targetPoint" />
           </mxGeometry>
@@ -169,16 +169,15 @@
         <mxCell id="7t_8mVTO04nEGpoZwpga-18" value="Commercetools API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="609" y="287" width="124" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-23" target="7t_8mVTO04nEGpoZwpga-28">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7t_8mVTO04nEGpoZwpga-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-37" target="7t_8mVTO04nEGpoZwpga-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="83" y="534" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-22" value="/authentication/user&lt;div&gt;Authorization Bearer Token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7t_8mVTO04nEGpoZwpga-21">
           <mxGeometry x="0.4056" relative="1" as="geometry">
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-23" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="53" y="504" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-28" target="7t_8mVTO04nEGpoZwpga-30">
           <mxGeometry relative="1" as="geometry" />
@@ -190,10 +189,10 @@
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="91.5999755859375" y="561.5" as="targetPoint" />
+            <mxPoint x="77" y="562" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-27" value="Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7t_8mVTO04nEGpoZwpga-26">
+        <mxCell id="7t_8mVTO04nEGpoZwpga-27" value="Customer information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7t_8mVTO04nEGpoZwpga-26">
           <mxGeometry x="-0.191" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -225,6 +224,12 @@
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-32" value="Commercetools&lt;div&gt;API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="612" y="663" width="124" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="7t_8mVTO04nEGpoZwpga-36" value="ADEE Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="127" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7t_8mVTO04nEGpoZwpga-37" value="ADEE Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="521" width="120" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
