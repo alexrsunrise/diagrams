@@ -230,11 +230,8 @@
         <mxCell id="7t_8mVTO04nEGpoZwpga-37" value="ADEE Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-34" y="519" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="7t_8mVTO04nEGpoZwpga-38" value="How to Place orders for new customers? And/or create new customers?&lt;div&gt;Admin Token? Storefront Token?&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-103" y="1145" width="181.5" height="108" as="geometry" />
-        </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-41" value="&lt;div&gt;How to implement SSO from ADEE Storefront to Exigo?&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-95.5" y="1299" width="181.5" height="108" as="geometry" />
+          <mxGeometry x="86" y="1159" width="181.5" height="108" as="geometry" />
         </mxCell>
         <mxCell id="7t_8mVTO04nEGpoZwpga-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="7t_8mVTO04nEGpoZwpga-48" target="7t_8mVTO04nEGpoZwpga-47">
           <mxGeometry relative="1" as="geometry">
