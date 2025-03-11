@@ -4,6 +4,18 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-1" value="EventBridge + Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-2" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-3" value="Syncs Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
