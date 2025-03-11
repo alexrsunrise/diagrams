@@ -29,6 +29,9 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-3" value="Syncs Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="367" width="90" height="60" as="geometry" />
         </mxCell>
@@ -95,7 +98,7 @@
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-22" value="Slack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-26" value="CloudWatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
