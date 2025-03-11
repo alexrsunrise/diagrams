@@ -1,20 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Shopify app and syncs" id="ral1vEAUckbfEC9rRoto">
-    <mxGraphModel dx="1562" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1962" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-1" target="-8Kpvec4LX_dWNrrcb2I-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-9" value="API Calls to Trigger syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-5">
+          <mxGeometry x="-0.3314" y="-1" relative="1" as="geometry">
+            <mxPoint x="20" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-1" value="EventBridge + Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="360" width="100" height="140" as="geometry" />
+          <mxGeometry y="365" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-2" target="-8Kpvec4LX_dWNrrcb2I-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-2" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="80" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-3" value="Syncs Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="360" width="90" height="60" as="geometry" />
+          <mxGeometry x="425" y="367" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-4" target="-8Kpvec4LX_dWNrrcb2I-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-18" value="Sync data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-10">
+          <mxGeometry x="0.3232" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="660" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-8" target="-8Kpvec4LX_dWNrrcb2I-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-17" value="Trigger Syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-16">
+          <mxGeometry x="0.5221" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-8" value="Shopify Embedded App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-11" target="-8Kpvec4LX_dWNrrcb2I-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-13" value="Check Syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-12">
+          <mxGeometry x="-0.0126" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-11" target="-8Kpvec4LX_dWNrrcb2I-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="130" />
+              <mxPoint x="-110" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-15" value="Trigger Syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-14">
+          <mxGeometry x="0.5029" y="-2" relative="1" as="geometry">
+            <mxPoint x="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-11" value="Shopify&lt;div&gt;Admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="100" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
