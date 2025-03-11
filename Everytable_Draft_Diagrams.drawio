@@ -104,6 +104,12 @@
         <mxCell id="j6ZDnOmFenrB54_PsIP6-1" value="B2B Orders Syncs from Ops Data Mart to Shopify&lt;div&gt;Inventory Daily Pushes From Ops Data Mart to Shopify&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="40" width="320" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1tzt6fcv6iDWOZdQvuJx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1tzt6fcv6iDWOZdQvuJx-1" target="-8Kpvec4LX_dWNrrcb2I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1tzt6fcv6iDWOZdQvuJx-1" value="Ops Data Mart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
