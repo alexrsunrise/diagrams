@@ -299,6 +299,18 @@
         <mxCell id="-dY9Duvi7T4UZDSDkkwI-10" value="Everytable Airflow/dbt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="450" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="weVu5AK_n-kUH6JR_8_Y-2" value="Fivetran app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="weVu5AK_n-kUH6JR_8_Y-3" value="Fivetran app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="weVu5AK_n-kUH6JR_8_Y-4" value="Check how fast fivetran app can do it" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="weVu5AK_n-kUH6JR_8_Y-5" value="https://fivetran.com/docs/connectors/applications/shopify/setup-guide-new" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
