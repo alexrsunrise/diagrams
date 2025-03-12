@@ -291,7 +291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fBLPxZMJ2FEK4KGbV932" name="Migration Process">
-    <mxGraphModel dx="1962" dy="1189" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1962" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,12 +312,6 @@
         </mxCell>
         <mxCell id="gHekwu2jnp-6MjCiqz_u-3" value="Prado API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gHekwu2jnp-6MjCiqz_u-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gHekwu2jnp-6MjCiqz_u-4" target="gHekwu2jnp-6MjCiqz_u-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gHekwu2jnp-6MjCiqz_u-4" value="Google Sheets&lt;div&gt;API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gHekwu2jnp-6MjCiqz_u-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.916;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gHekwu2jnp-6MjCiqz_u-3" target="gHekwu2jnp-6MjCiqz_u-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
