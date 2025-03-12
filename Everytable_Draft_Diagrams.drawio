@@ -1,30 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="3">
   <diagram name="Shopify app and syncs" id="ral1vEAUckbfEC9rRoto">
-    <mxGraphModel dx="1962" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1962" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-1" target="-8Kpvec4LX_dWNrrcb2I-2">
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-1" target="-8Kpvec4LX_dWNrrcb2I-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-9" value="API Calls to Trigger syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-5">
-          <mxGeometry x="-0.3314" y="-1" relative="1" as="geometry">
-            <mxPoint x="20" y="-1" as="offset" />
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-4" value="Trigger order syncs for Uber Direct" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C5SH0l7HvS_bsLf0_YbV-1">
+          <mxGeometry x="-0.0746" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-1" value="EventBridge + Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="365" width="100" height="140" as="geometry" />
+          <mxGeometry x="-80" y="430" width="100" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-2" target="-8Kpvec4LX_dWNrrcb2I-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TjmTl8xYzuTQ2JKE-ijE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-2" target="TjmTl8xYzuTQ2JKE-ijE-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-2" value="API Gateway ECS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="360" width="80" height="150" as="geometry" />
+          <mxGeometry x="260" y="420" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-20">
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-25" value="Errors" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-23">
@@ -32,46 +29,38 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-26">
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="C5SH0l7HvS_bsLf0_YbV-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-3" value="Syncs Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="367" width="90" height="60" as="geometry" />
+          <mxGeometry x="420" y="385" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-4" target="-8Kpvec4LX_dWNrrcb2I-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-18" value="Data syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-10">
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-18" value="Uber Direct/Sync data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-10">
           <mxGeometry x="0.3232" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="660" y="250" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-19" value="Data syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-7">
-          <mxGeometry x="-0.1452" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="435" y="190" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-8" target="-8Kpvec4LX_dWNrrcb2I-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-17" value="Trigger Syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-16">
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-17" value="Trigger Uber Direct" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-16">
           <mxGeometry x="0.5221" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-12" y="-84" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-8" value="Shopify Embedded App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="90" width="120" height="80" as="geometry" />
+          <mxGeometry x="60" y="-20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-11" target="-8Kpvec4LX_dWNrrcb2I-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-13" value="Check Syncs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-12">
+        <mxCell id="-8Kpvec4LX_dWNrrcb2I-13" value="Check Uber Direct" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-8Kpvec4LX_dWNrrcb2I-12">
           <mxGeometry x="-0.0126" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -79,8 +68,8 @@
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-11" target="-8Kpvec4LX_dWNrrcb2I-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-110" y="130" />
-              <mxPoint x="-110" y="150" />
+              <mxPoint x="-120" y="20" />
+              <mxPoint x="-120" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,25 +79,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-11" value="Shopify&lt;div&gt;Admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="100" width="30" height="60" as="geometry" />
+          <mxGeometry x="-160" y="-10" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-20" target="-8Kpvec4LX_dWNrrcb2I-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-20" value="SNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-22" value="Slack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-8Kpvec4LX_dWNrrcb2I-26" value="CloudWatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-3" target="-8Kpvec4LX_dWNrrcb2I-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j6ZDnOmFenrB54_PsIP6-1" value="B2B Orders Syncs from Ops Data Mart to Shopify&lt;div&gt;Inventory Daily Pushes From Ops Data Mart to Shopify&lt;/div&gt;&lt;div&gt;Uber Direct&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="40" width="320" height="30" as="geometry" />
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-3" value="Uber Direct/sync data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C5SH0l7HvS_bsLf0_YbV-2">
+          <mxGeometry x="0.154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TjmTl8xYzuTQ2JKE-ijE-1" value="Admin&amp;nbsp;&lt;div&gt;Serivce&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="377" y="442" width="70" height="60" as="geometry" />
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C5SH0l7HvS_bsLf0_YbV-5" target="-8Kpvec4LX_dWNrrcb2I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-5" value="Uber Direct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5SH0l7HvS_bsLf0_YbV-8" target="-8Kpvec4LX_dWNrrcb2I-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-12" value="Orders" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C5SH0l7HvS_bsLf0_YbV-11">
+          <mxGeometry x="-0.4107" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C5SH0l7HvS_bsLf0_YbV-8" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
