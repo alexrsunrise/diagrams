@@ -163,6 +163,15 @@
         <mxCell id="aACZZvElZKyBfMT4ZHww-1" value="Talk about Handling inventory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="190" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="eqsRciVCymn7ro2hJCD3-1" value="Put orders into the Uber&lt;div&gt;Subscribe to webhooks&lt;/div&gt;&lt;div&gt;also add redunancy&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="620" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eqsRciVCymn7ro2hJCD3-2" value="Rescheduling in Uber from the Shopify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="195" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eqsRciVCymn7ro2hJCD3-6" value="Use action menus on order in Shopify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="250" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
