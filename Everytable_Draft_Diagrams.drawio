@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-1" value="EventBridge + Lambda" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="430" width="100" height="140" as="geometry" />
+          <mxGeometry x="-120" y="490" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h0tyE7TGcbH4qEBCF4un-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-2" target="-8Kpvec4LX_dWNrrcb2I-3">
           <mxGeometry relative="1" as="geometry" />
