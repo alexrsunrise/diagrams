@@ -18,6 +18,9 @@
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="-8Kpvec4LX_dWNrrcb2I-2" target="-8Kpvec4LX_dWNrrcb2I-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-8Kpvec4LX_dWNrrcb2I-2" target="VXS26ne1R8nksLS8uUlp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-8Kpvec4LX_dWNrrcb2I-2" value="API Gateway ECS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="420" width="80" height="160" as="geometry" />
         </mxCell>
@@ -118,6 +121,40 @@
         </mxCell>
         <mxCell id="C5SH0l7HvS_bsLf0_YbV-8" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXS26ne1R8nksLS8uUlp-1" target="-8Kpvec4LX_dWNrrcb2I-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="210" />
+              <mxPoint x="50" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-6" value="Check inventories" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VXS26ne1R8nksLS8uUlp-5">
+          <mxGeometry x="-0.3891" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="110" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-2" value="Storefront" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-3" value="PDP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-4" value="APP Embed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="180" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXS26ne1R8nksLS8uUlp-7" target="VXS26ne1R8nksLS8uUlp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-7" value="Inventory Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="510" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VXS26ne1R8nksLS8uUlp-9" value="Stocky Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="580" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
