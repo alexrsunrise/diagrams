@@ -294,8 +294,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-dY9Duvi7T4UZDSDkkwI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-dY9Duvi7T4UZDSDkkwI-1" target="-dY9Duvi7T4UZDSDkkwI-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-dY9Duvi7T4UZDSDkkwI-3" value="Orders, products, customers pulls" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-dY9Duvi7T4UZDSDkkwI-1" target="-dY9Duvi7T4UZDSDkkwI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="190" />
+              <mxPoint x="220" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-dY9Duvi7T4UZDSDkkwI-1" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="160" width="120" height="60" as="geometry" />
@@ -306,7 +311,12 @@
         <mxCell id="-dY9Duvi7T4UZDSDkkwI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-dY9Duvi7T4UZDSDkkwI-6" target="-dY9Duvi7T4UZDSDkkwI-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-dY9Duvi7T4UZDSDkkwI-6" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-dY9Duvi7T4UZDSDkkwI-11" value="Subscriptions pulls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-dY9Duvi7T4UZDSDkkwI-5">
+          <mxGeometry x="-0.0064" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-dY9Duvi7T4UZDSDkkwI-6" value="Recharge API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-dY9Duvi7T4UZDSDkkwI-7" value="Everytable Airflow/dbt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -315,7 +325,12 @@
         <mxCell id="-dY9Duvi7T4UZDSDkkwI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-dY9Duvi7T4UZDSDkkwI-9" target="-dY9Duvi7T4UZDSDkkwI-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-dY9Duvi7T4UZDSDkkwI-9" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-dY9Duvi7T4UZDSDkkwI-12" value="Inventories pulls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-dY9Duvi7T4UZDSDkkwI-8">
+          <mxGeometry x="-0.0304" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-dY9Duvi7T4UZDSDkkwI-9" value="Stocky API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-dY9Duvi7T4UZDSDkkwI-10" value="Everytable Airflow/dbt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
