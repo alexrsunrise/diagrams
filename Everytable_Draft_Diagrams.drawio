@@ -117,7 +117,7 @@
         </mxCell>
         <mxCell id="h0tyE7TGcbH4qEBCF4un-3" value="Orders" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h0tyE7TGcbH4qEBCF4un-2">
           <mxGeometry x="0.1368" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C5SH0l7HvS_bsLf0_YbV-8" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
