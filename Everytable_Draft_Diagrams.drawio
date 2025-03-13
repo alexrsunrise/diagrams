@@ -533,7 +533,7 @@
         <mxCell id="b9YLgHS7TUAXsLPHfpTN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="b9YLgHS7TUAXsLPHfpTN-3" target="b9YLgHS7TUAXsLPHfpTN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b9YLgHS7TUAXsLPHfpTN-47" value="Trigger Uber Direct&lt;div&gt;Fallbacks&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b9YLgHS7TUAXsLPHfpTN-46">
+        <mxCell id="b9YLgHS7TUAXsLPHfpTN-47" value="Trigger Uber Direct&lt;div&gt;sync for fallback&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b9YLgHS7TUAXsLPHfpTN-46">
           <mxGeometry x="-0.5097" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -556,7 +556,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b9YLgHS7TUAXsLPHfpTN-13" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="271" width="60" height="80" as="geometry" />
+          <mxGeometry x="350" y="264" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="b9YLgHS7TUAXsLPHfpTN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="b9YLgHS7TUAXsLPHfpTN-16" target="b9YLgHS7TUAXsLPHfpTN-6">
           <mxGeometry relative="1" as="geometry" />
@@ -627,16 +627,27 @@
             <mxPoint x="1" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="b9YLgHS7TUAXsLPHfpTN-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b9YLgHS7TUAXsLPHfpTN-51" target="b9YLgHS7TUAXsLPHfpTN-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b9YLgHS7TUAXsLPHfpTN-60" value="Uber Direct&lt;div&gt;Order Updates&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b9YLgHS7TUAXsLPHfpTN-59">
+          <mxGeometry x="-0.0015" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b9YLgHS7TUAXsLPHfpTN-51" value="Sync Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b9YLgHS7TUAXsLPHfpTN-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="b9YLgHS7TUAXsLPHfpTN-51" target="b9YLgHS7TUAXsLPHfpTN-13">
+        <mxCell id="b9YLgHS7TUAXsLPHfpTN-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b9YLgHS7TUAXsLPHfpTN-51" target="b9YLgHS7TUAXsLPHfpTN-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b9YLgHS7TUAXsLPHfpTN-54" value="Uber Direct&lt;div&gt;Notifications&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b9YLgHS7TUAXsLPHfpTN-53">
+        <mxCell id="b9YLgHS7TUAXsLPHfpTN-54" value="Uber Direct&lt;div&gt;Order Statuses&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b9YLgHS7TUAXsLPHfpTN-53">
           <mxGeometry x="0.2672" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="b9YLgHS7TUAXsLPHfpTN-58" value="Shopify API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="257" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
