@@ -611,7 +611,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b9YLgHS7TUAXsLPHfpTN-28" value="Uber Direct" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-148" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="507" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b9YLgHS7TUAXsLPHfpTN-43" value="Rescheduling in Uber from the Shopify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="536" y="721" width="150" height="30" as="geometry" />
