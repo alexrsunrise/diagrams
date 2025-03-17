@@ -918,6 +918,12 @@
         <mxCell id="XJ7jQrlerRI29IYH4RS3-155" value="Schedule&lt;div&gt;Uber Direct Polling&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="XJ7jQrlerRI29IYH4RS3-1">
           <mxGeometry x="985" y="363" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XJ7jQrlerRI29IYH4RS3-157" value="Database&lt;div&gt;Credentials Store&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;" vertex="1" parent="XJ7jQrlerRI29IYH4RS3-1">
+          <mxGeometry x="1017" y="571" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XJ7jQrlerRI29IYH4RS3-158" value="Parameters&lt;div&gt;Store&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.parameter_store;" vertex="1" parent="XJ7jQrlerRI29IYH4RS3-1">
+          <mxGeometry x="922" y="575" width="50" height="52" as="geometry" />
+        </mxCell>
         <mxCell id="XJ7jQrlerRI29IYH4RS3-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJ7jQrlerRI29IYH4RS3-18" target="XJ7jQrlerRI29IYH4RS3-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
