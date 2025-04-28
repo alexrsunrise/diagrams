@@ -382,6 +382,9 @@
         <mxCell id="U0tIaRqrCYr7vKwaN6SE-17" value="Slack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="233" y="1049" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="U0tIaRqrCYr7vKwaN6SE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0tIaRqrCYr7vKwaN6SE-18" target="U0tIaRqrCYr7vKwaN6SE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="U0tIaRqrCYr7vKwaN6SE-18" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="743" width="120" height="60" as="geometry" />
         </mxCell>
